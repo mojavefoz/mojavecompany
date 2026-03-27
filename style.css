@@ -208,15 +208,19 @@ h1, h2, h3, h4 {
 }
 
 .nav__logo {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  color: var(--sand);
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
-.nav__logo:hover { color: var(--off-white); }
+.nav__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .nav__logo-img { height: 28px; }
+}
 
 
 /* ============================================================
@@ -515,19 +519,6 @@ h1, h2, h3, h4 {
   object-position: center top;
 }
 
-.about__placeholder {
-  display: none;
-  position: absolute;
-  inset: 0;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-size: 6rem;
-  font-weight: 800;
-  color: var(--charcoal);
-  opacity: 0.18;
-  letter-spacing: 0.05em;
-}
 
 .about__name {
   font-size: clamp(2.75rem, 4.5vw, 4.25rem);
@@ -701,10 +692,6 @@ h1, h2, h3, h4 {
     padding: 1rem 1.25rem;
   }
 
-  .nav__logo {
-    font-size: 0.95rem;
-    letter-spacing: 0.1em;
-  }
 
   .hero__inner {
     padding: 6rem 1.25rem 5rem;
