@@ -213,13 +213,13 @@ h1, h2, h3, h4 {
 }
 
 .nav__logo-img {
-  height: 36px;
+  height: 52px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 640px) {
-  .nav__logo-img { height: 28px; }
+  .nav__logo-img { height: 38px; }
 }
 
 
@@ -625,13 +625,10 @@ h1, h2, h3, h4 {
   gap: 0.6rem;
 }
 
-.footer__logo {
-  font-family: var(--font-heading);
-  font-size: 1.15rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  color: var(--sand);
-  text-transform: uppercase;
+.footer__logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
 .footer__tagline {
