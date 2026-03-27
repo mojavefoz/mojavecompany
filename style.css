@@ -215,9 +215,9 @@ h1, h2, h3, h4 {
 }
 
 .nav__logo-img {
-  width: 140px;
-  max-width: 140px;
-  height: auto;
+  width: 160px;
+  height: 40px;
+  object-fit: contain;
   display: block;
 }
 
@@ -629,9 +629,9 @@ h1, h2, h3, h4 {
 }
 
 .footer__logo-img {
-  width: 200px;
-  max-width: 200px;
-  height: auto;
+  width: 180px;
+  height: 45px;
+  object-fit: contain;
   display: block;
 }
 
