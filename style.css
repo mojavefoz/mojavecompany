@@ -606,97 +606,6 @@ h1, h2, h3, h4 {
   margin-bottom: 3rem;
 }
 
-.contact__form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.form__row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
-.form__group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.form__group label {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  opacity: 0.75;
-}
-
-.form__group input,
-.form__group select,
-.form__group textarea {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  background: rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(245, 240, 232, 0.2);
-  border-radius: 3px;
-  padding: 0.85rem 1rem;
-  color: var(--off-white);
-  width: 100%;
-  transition: border-color var(--ease), background var(--ease);
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-.form__group select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23F5F0E8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  padding-right: 2.5rem;
-  cursor: pointer;
-}
-
-.form__group select option {
-  background: var(--charcoal);
-  color: var(--off-white);
-}
-
-.form__group input::placeholder,
-.form__group textarea::placeholder {
-  color: rgba(245, 240, 232, 0.35);
-}
-
-.form__group input:focus,
-.form__group select:focus,
-.form__group textarea:focus {
-  outline: none;
-  background: rgba(0, 0, 0, 0.25);
-  border-color: rgba(245, 240, 232, 0.6);
-}
-
-.form__group textarea {
-  resize: vertical;
-  min-height: 120px;
-  line-height: 1.6;
-}
-
-.contact__alt {
-  text-align: center;
-  margin-top: 2.25rem;
-  font-size: 0.95rem;
-  opacity: 0.7;
-}
-
-.contact__alt a {
-  color: var(--off-white);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  opacity: 1;
-  font-weight: 500;
-}
-
-.contact__alt a:hover { opacity: 0.9; }
 
 
 /* ============================================================
@@ -828,10 +737,6 @@ h1, h2, h3, h4 {
   .about__stats {
     flex-wrap: wrap;
     gap: 1.5rem;
-  }
-
-  .form__row {
-    grid-template-columns: 1fr;
   }
 
   .footer__inner {
