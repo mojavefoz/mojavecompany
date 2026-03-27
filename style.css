@@ -657,6 +657,20 @@ h1, h2, h3, h4 {
   font-size: 0.78rem;
   color: rgba(245, 240, 232, 0.25);
   letter-spacing: 0.03em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer__bottom a {
+  color: rgba(245, 240, 232, 0.25);
+  transition: color var(--ease);
+}
+
+.footer__bottom a:hover {
+  color: rgba(245, 240, 232, 0.5);
 }
 
 
