@@ -213,13 +213,13 @@ h1, h2, h3, h4 {
 }
 
 .nav__logo-img {
-  height: 52px;
+  height: 72px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 640px) {
-  .nav__logo-img { height: 38px; }
+  .nav__logo-img { height: 52px; }
 }
 
 
@@ -626,8 +626,8 @@ h1, h2, h3, h4 {
 }
 
 .footer__logo-img {
-  height: 48px;
-  width: auto;
+  width: 160px;
+  height: auto;
   display: block;
 }
 
