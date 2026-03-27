@@ -80,8 +80,8 @@ h1, h2, h3, h4 {
 .section__label {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 800;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--teal);
@@ -288,7 +288,7 @@ h1, h2, h3, h4 {
 }
 
 .hero__subhead {
-  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
   color: var(--sand);
   max-width: 560px;
   line-height: 1.7;
@@ -385,7 +385,7 @@ h1, h2, h3, h4 {
 }
 
 .service-card__desc {
-  font-size: 0.975rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   opacity: 0.8;
   flex: 1;
@@ -442,7 +442,7 @@ h1, h2, h3, h4 {
 }
 
 .method__body {
-  font-size: 1.075rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   color: rgba(245, 240, 232, 0.65);
   margin-bottom: 3.5rem;
@@ -464,7 +464,7 @@ h1, h2, h3, h4 {
 .method__pillar-num {
   display: block;
   font-family: var(--font-heading);
-  font-size: 0.7rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: var(--burnt-orange);
@@ -472,13 +472,13 @@ h1, h2, h3, h4 {
 }
 
 .method__pillar-title {
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   color: var(--off-white);
   margin-bottom: 0.75rem;
 }
 
 .method__pillar-body {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.65;
   color: rgba(245, 240, 232, 0.5);
 }
@@ -536,7 +536,7 @@ h1, h2, h3, h4 {
 
 .about__role {
   font-family: var(--font-heading);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -545,7 +545,7 @@ h1, h2, h3, h4 {
 }
 
 .about__body {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1.75;
   color: #454545;
   margin-bottom: 1.25rem;
@@ -600,7 +600,7 @@ h1, h2, h3, h4 {
 }
 
 .contact__subhead {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   opacity: 0.85;
   margin-bottom: 3rem;
